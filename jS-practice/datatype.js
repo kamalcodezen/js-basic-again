@@ -51,3 +51,28 @@ student["fullName"] = "aisha";
 student["name"] = "jhankar"
 student["isPass"] = false;
 console.log(student.isPass);
+
+
+
+
+/******************************
+ *      object task product
+ ******************************/
+
+const product = {
+    title: "Ball Pen",
+    price: 270,
+    isDeal: true,
+    rating: 5,
+};
+
+console.log(product);
+// ===profile object task'=
+
+const profile = {
+    userName: "kamaluddin",
+    follower: 800,
+    isFollow: true,
+    following: 123,
+};
+console.log(typeof profile["isFollow"]);
