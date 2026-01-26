@@ -30,3 +30,24 @@ console.log(typeof num, num);
 
 let s = Symbol("hello!");// symbol datatype
 console.log(typeof s, s);
+
+
+
+/*=================================================== 
+          //  non primitive datatype  
+
+                object datatype
+ ============================================*/
+
+const student = {
+    fullName: "kamaluddin",
+    age: 23,
+    isPass: true,
+    cgpa: 8.5,
+};
+
+// student["age"] = student["age"] + 1;
+student["fullName"] = "aisha";
+student["name"] = "jhankar"
+student["isPass"] = false;
+console.log(student.isPass);
