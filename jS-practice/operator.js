@@ -136,3 +136,11 @@ if (name === "kamal") {
     title = "aisha - kamal";
 }
 console.log(title);
+
+
+// ternary operator
+
+age >= 18 ? console.log("adult") : console.log("not adult");
+let marks = 90
+let result = marks >= 70 ? "pass" : "fail";
+console.log(result);
