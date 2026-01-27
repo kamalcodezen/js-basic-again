@@ -25,3 +25,18 @@ let bengali = 99.50;
 let marksSum = math + biology + chemistry + physics + bengali; // totalSum
 let average = marksSum / 5;    // average 
 console.log(average.toFixed(2));   // .tofixed(2) float
+
+
+//=========================================
+
+
+/*****************************************
+   3.Task is to divide a given number by 5 and and show the remainder as the output.
+ *****************************************/
+
+let nums = 118;
+let number = 5;
+let remainder = nums / number;
+console.log(remainder);
+                                    
+// =======================================
