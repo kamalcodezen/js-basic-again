@@ -56,3 +56,20 @@ else {
 }
 
 // ===========================================
+
+
+
+
+/******************************************
+    isNaN check  checkNumber = "abc";
+ ******************************************/
+
+    let checkNum = "abc";
+    let nums2 = Number(checkNum);
+    if(isNaN(nums2)){
+        console.log("Not a Number ");
+    } 
+    else{
+        console.log("Valid Number");
+    }
+    // ====================================
