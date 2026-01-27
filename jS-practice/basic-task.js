@@ -38,5 +38,21 @@ let nums = 118;
 let number = 5;
 let remainder = nums / number;
 console.log(remainder);
-                                    
+
 // =======================================
+
+
+/******************************************
+    isNaN check  checkNumber = 10;
+ ******************************************/
+
+let checkNumber = 10;
+let num = Number(checkNumber);
+if (isNaN(num)) {
+    console.log("input is wrong");
+}
+else {
+    console.log(num + 5);
+}
+
+// ===========================================
