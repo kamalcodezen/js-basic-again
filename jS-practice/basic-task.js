@@ -47,8 +47,8 @@ console.log(remainder);
  ******************************************/
 
 let checkNumber = 10;
-let num = Number(checkNumber);
-if (isNaN(num)) {
+let num = Number(checkNumber); // check number
+if (isNaN(num)) {           // bolche ata number na ... false
     console.log("input is wrong");
 }
 else {

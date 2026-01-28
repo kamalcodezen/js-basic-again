@@ -144,3 +144,43 @@ age >= 18 ? console.log("adult") : console.log("not adult");
 let marks = 90
 let result = marks >= 70 ? "pass" : "fail";
 console.log(result);
+
+
+
+/********************************************
+ Task 1. Get user to input a number using prompt ("Enter a number"). check if the number is a multiple 5 or not.
+ *********************************************/
+
+let user = prompt("Enter a Number");
+
+if (user % 5 === 0) {
+    console.log("this number multiple 5");
+} else {
+    console.log("this number not multiple 5");
+}
+
+
+
+/*========================================*/
+
+/*******************************************
+  task 2. write a code can give grades to students according to their scores.
+ ********************************************/
+
+let score = prompt("Enter a Score (0-100);");
+let grade;
+
+if (score >= 90 && score <= 100) {
+    grade = "A";
+} else if (score >= 70 && score <= 89) {
+    grade = "B";
+} else if (score >= 50 && score <= 69) {
+    grade = "C"
+} else if (score >= 30 && score <= 49) {
+    grade = "D"
+} else if ( score >= 0  && score <= 29){
+    grade = "Fail"
+}
+console.log("according to your scores , your grade was : " , grade);
+
+// =================================================
