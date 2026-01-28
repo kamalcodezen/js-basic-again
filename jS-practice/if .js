@@ -12,5 +12,6 @@ if (weight <= 18){
 } else{
     console.log("i will not carry you");
 }
+//------------------------------------
 
 
